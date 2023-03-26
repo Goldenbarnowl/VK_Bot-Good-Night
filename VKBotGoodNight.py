@@ -26,7 +26,7 @@ def send_message(user_id, message):
 
 
 def work():
-     while unixtime(time.time()) != 14: #0 это час, в который отправляется сообщение
+     while unixtime(time.time()) != 0: #0 это час, в который отправляется сообщение
          print("Час не настал, начинаю ожидание (1час)")
          time.sleep(3600)
      else:
